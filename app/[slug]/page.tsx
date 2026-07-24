@@ -43,8 +43,7 @@ export async function generateMetadata({
     title: page.metaTitle,
     description: page.metaDescription,
     alternates: {
-      ccanonical: `https://kalkandoctor.com/${page.slug}`,
-},
+      canonical: `https://kalkandoctor.com/${page.slug}`,
     },
     openGraph: {
       title: page.metaTitle,
