@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "https://www.kalkandoctor.com/*"
+  to = "https://kalkandoctor.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://kalkandoctor.net/*"
+  to = "https://kalkandoctor.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.kalkandoctor.net/*"
+  to = "https://kalkandoctor.com/:splat"
+  status = 301
+  force = true
