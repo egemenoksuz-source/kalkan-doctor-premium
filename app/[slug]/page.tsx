@@ -48,7 +48,7 @@ export async function generateMetadata({
     openGraph: {
       title: page.metaTitle,
       description: page.metaDescription,
-      url: `https://www.kalkandoctor.com/${page.slug}`,
+      url: `https://kalkandoctor.com/${page.slug}`,
       type: "website",
       siteName: "Kalkan Doctor",
       locale: "en_GB",
@@ -64,7 +64,7 @@ export default async function SeoPage({ params }: PageProps) {
     notFound();
   }
 
-  const pageUrl = `https://www.kalkandoctor.com/${page.slug}`;
+  const pageUrl = `https://kalkandoctor.com/${page.slug}`;
 
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -93,12 +93,42 @@ export default async function SeoPage({ params }: PageProps) {
     })),
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Kalkan Doctor",
+        item: "https://kalkandoctor.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: page.heading,
+        item: pageUrl,
+      },
+    ],
+  };
+
+  const relatedPages = seoPages
+    .filter((item) => item.slug !== page.slug)
+    .slice(0, 4);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(serviceSchema),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema),
         }}
       />
 
@@ -194,6 +224,69 @@ export default async function SeoPage({ params }: PageProps) {
             </div>
           </div>
         </section>
+
+        {page.contentSections && page.contentSections.length > 0 && (
+          <section className="bg-[#fff8f7] py-20 sm:py-28">
+            <div className="container-premium">
+              <div className="grid gap-12 lg:grid-cols-[0.3fr_0.7fr]">
+                <div>
+                  <p className="text-xs font-black uppercase tracking-[0.2em] text-red-700">
+                    Local medical care
+                  </p>
+
+                  <h2 className="mt-6 text-4xl font-black leading-[0.95] tracking-[-0.05em] text-slate-950">
+                    Clear help
+                    <span className="mt-2 block font-light italic text-red-700">
+                      when you need it.
+                    </span>
+                  </h2>
+                </div>
+
+                <div className="space-y-12">
+                  {page.contentSections.map((section) => (
+                    <article
+                      key={section.title}
+                      className="border-t border-red-950/10 pt-7"
+                    >
+                      <h2 className="text-2xl font-black tracking-[-0.03em] text-slate-950 sm:text-3xl">
+                        {section.title}
+                      </h2>
+
+                      <div className="mt-5 space-y-4">
+                        {section.paragraphs.map((paragraph) => (
+                          <p
+                            key={paragraph}
+                            className="font-medium leading-8 text-slate-600"
+                          >
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
+
+                      {section.bullets && section.bullets.length > 0 && (
+                        <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+                          {section.bullets.map((bullet) => (
+                            <li
+                              key={bullet}
+                              className="flex items-start gap-3 border border-red-950/10 bg-white p-4 font-bold text-slate-800"
+                            >
+                              <Check
+                                size={17}
+                                strokeWidth={3}
+                                className="mt-1 shrink-0 text-red-700"
+                              />
+                              {bullet}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </article>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
 
         <section className="bg-[#ffffff] py-20 sm:py-28">
           <div className="container-premium">
@@ -327,6 +420,53 @@ export default async function SeoPage({ params }: PageProps) {
                   </article>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#fff8f7] py-20 sm:py-24">
+          <div className="container-premium">
+            <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+              <div>
+                <p className="text-xs font-black uppercase tracking-[0.2em] text-red-700">
+                  Related medical services
+                </p>
+                <h2 className="mt-5 text-3xl font-black tracking-[-0.04em] text-slate-950 sm:text-4xl">
+                  Find the right local service
+                </h2>
+              </div>
+
+              <Link
+                href="/"
+                className="inline-flex items-center gap-2 font-black text-red-800"
+              >
+                View main page
+                <ArrowRight size={17} />
+              </Link>
+            </div>
+
+            <div className="mt-10 grid gap-4 md:grid-cols-2">
+              {relatedPages.map((item) => (
+                <Link
+                  key={item.slug}
+                  href={`/${item.slug}`}
+                  className="group border border-red-950/10 bg-white p-6 transition hover:border-red-700"
+                >
+                  <p className="text-xs font-black uppercase tracking-[0.15em] text-red-700">
+                    Medical service
+                  </p>
+                  <h3 className="mt-3 text-xl font-black text-slate-950">
+                    {item.heading}
+                  </h3>
+                  <span className="mt-5 inline-flex items-center gap-2 font-black text-red-800">
+                    Learn more
+                    <ArrowRight
+                      size={17}
+                      className="transition group-hover:translate-x-1"
+                    />
+                  </span>
+                </Link>
+              ))}
             </div>
           </div>
         </section>

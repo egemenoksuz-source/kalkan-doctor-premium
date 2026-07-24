@@ -5,6 +5,11 @@ export type SeoPage = {
   eyebrow: string;
   heading: string;
   intro: string;
+  contentSections?: {
+    title: string;
+    paragraphs: string[];
+    bullets?: string[];
+  }[];
   services: string[];
   areas: string[];
   faq: {
@@ -16,13 +21,41 @@ export type SeoPage = {
 export const seoPages: SeoPage[] = [
   {
     slug: "doctor-in-kalkan",
-    metaTitle: "Doctor in Kalkan | English-Speaking Private Medical Care",
+    metaTitle: "Doctor in Kalkan | 24/7 English-Speaking Doctor",
     metaDescription:
-      "Looking for a doctor in Kalkan? Contact our English-speaking medical team for hotel, villa, apartment and home doctor visits.",
-    eyebrow: "Private Doctor Service in Kalkan",
-    heading: "English-Speaking Doctor in Kalkan",
+      "Need a doctor in Kalkan? Contact our English-speaking medical team for private hotel, villa and home visits in Kalkan. Call or WhatsApp 24/7.",
+    eyebrow: "24/7 Private Doctor Service in Kalkan",
+    heading: "Doctor in Kalkan for Hotel, Villa & Home Visits",
     intro:
-      "Private medical assistance for tourists, residents and families throughout Kalkan. A doctor visit may be arranged at your hotel, villa, apartment, holiday home or private residence.",
+      "Need medical help while staying in Kalkan? Our English-speaking medical team supports tourists, residents and families with private doctor visits at hotels, villas, apartments, holiday homes and private residences throughout Kalkan.",
+    contentSections: [
+      {
+        title: "Private medical assistance where you are staying",
+        paragraphs: [
+          "Feeling unwell while travelling can be stressful, especially when you are unfamiliar with the local healthcare system. Kalkan Doctor provides direct access to English-speaking medical assistance without requiring you to leave your accommodation when a visit at your location is suitable.",
+          "Contact the team by telephone or WhatsApp and share the patient’s age, main symptoms, accommodation name and exact location. The information is reviewed so that the most appropriate next step can be discussed.",
+        ],
+        bullets: [
+          "Doctor visits to hotels and boutique accommodation",
+          "Private villa and holiday-home visits",
+          "Home visits for residents and international families",
+          "Clear communication in English and Turkish",
+        ],
+      },
+      {
+        title: "Medical care for common holiday health problems",
+        paragraphs: [
+          "Visitors commonly request medical assessment for stomach problems, dehydration, fever, respiratory symptoms, ear complaints, minor injuries and other unexpected illnesses. Every patient is assessed individually; treatment or further referral depends on the clinical evaluation.",
+          "For severe breathing difficulty, unconsciousness, stroke symptoms, major trauma or another life-threatening emergency, call Türkiye’s emergency number 112 immediately.",
+        ],
+      },
+      {
+        title: "Doctor coverage across Kalkan",
+        paragraphs: [
+          "Private medical visits may be arranged in Kalkan Centre, Kalamar, Kışla, Ortaalan and nearby villa districts including İslamlar, Üzümlü and Sarıbelen. Availability and estimated arrival information are confirmed after the patient’s location and needs are received.",
+        ],
+      },
+    ],
     services: [
       "Private doctor consultations",
       "Hotel and villa visits",
@@ -57,17 +90,60 @@ export const seoPages: SeoPage[] = [
         answer:
           "Call or send a WhatsApp message with the patient’s age, symptoms and exact location.",
       },
+      {
+        question: "Is a doctor available in Kalkan at night?",
+        answer:
+          "You can contact the medical team day or night. Current availability and the appropriate next step are confirmed after the patient’s information is reviewed.",
+      },
+      {
+        question: "Can tourists receive help for food poisoning or dehydration?",
+        answer:
+          "Yes. Tourists may request a medical assessment for stomach problems, vomiting, diarrhoea or possible dehydration. Treatment depends on the doctor’s individual clinical assessment.",
+      },
+      {
+        question: "Which parts of Kalkan do you cover?",
+        answer:
+          "Coverage includes Kalkan Centre, Kalamar, Kışla, İslamlar, Üzümlü, Sarıbelen and nearby locations, subject to current availability.",
+      },
     ],
   },
   {
     slug: "doctor-in-kas",
-    metaTitle: "Doctor in Kaş | English-Speaking Private Doctor Visits",
+    metaTitle: "Doctor in Kaş | 24/7 English-Speaking Doctor Visits",
     metaDescription:
-      "English-speaking doctor service in Kaş. Private medical visits to hotels, villas, apartments and homes. Call or WhatsApp.",
-    eyebrow: "Private Medical Assistance in Kaş",
-    heading: "English-Speaking Doctor in Kaş",
+      "Need a doctor in Kaş? Request English-speaking private medical assistance at your hotel, villa, apartment or home. Call or WhatsApp 24/7.",
+    eyebrow: "24/7 Private Medical Assistance in Kaş",
+    heading: "Doctor in Kaş for Hotel, Villa & Home Visits",
     intro:
-      "Professional medical support for visitors, residents and families across Kaş. Contact the team to arrange a private medical visit at your accommodation or home.",
+      "English-speaking private medical support for tourists, residents and families throughout Kaş. Contact the team to discuss a doctor visit at your hotel, villa, apartment, holiday accommodation or home.",
+    contentSections: [
+      {
+        title: "English-speaking medical support in Kaş",
+        paragraphs: [
+          "When you become unwell during your holiday, clear communication and fast access to appropriate medical advice are important. Our service helps international visitors in Kaş explain their symptoms in English and understand the recommended next steps.",
+          "A private medical visit may be arranged at your accommodation when clinically suitable. Send the patient’s details, symptoms, hotel or villa name and exact WhatsApp location to begin.",
+        ],
+        bullets: [
+          "Hotel-room doctor consultations",
+          "Private villa and apartment visits",
+          "Medical support for tourists and residents",
+          "English and Turkish communication",
+        ],
+      },
+      {
+        title: "Common reasons to request a doctor in Kaş",
+        paragraphs: [
+          "Patients may contact the team for sudden illness, food poisoning symptoms, dehydration concerns, fever, infections, ear complaints, minor injuries and general medical assessment. Recommendations are based on the patient’s symptoms and individual clinical examination.",
+          "If the condition appears life-threatening, contact 112 immediately rather than waiting for a private visit.",
+        ],
+      },
+      {
+        title: "Medical visits across Kaş",
+        paragraphs: [
+          "Service coverage includes Kaş Centre, Çukurbağ Peninsula, Gökseki, Bayındır, Büyük Çakıl and nearby accommodation areas. The team confirms availability after receiving the exact location.",
+        ],
+      },
+    ],
     services: [
       "Doctor visits in Kaş",
       "Hotel and accommodation visits",
@@ -101,6 +177,21 @@ export const seoPages: SeoPage[] = [
         question: "How do I share my location?",
         answer:
           "Send your exact WhatsApp location together with the patient’s information and symptoms.",
+      },
+      {
+        question: "Can a doctor come to my hotel room in Kaş?",
+        answer:
+          "Yes. When appropriate and available, a private doctor visit may be arranged at your hotel, villa, apartment or holiday accommodation.",
+      },
+      {
+        question: "Is English communication available?",
+        answer:
+          "Yes. International patients can explain their symptoms and receive medical information in English.",
+      },
+      {
+        question: "What should I do in a serious emergency?",
+        answer:
+          "For unconsciousness, severe breathing difficulty, stroke symptoms, major trauma or another life-threatening condition, call Türkiye’s emergency number 112 immediately.",
       },
     ],
   },
