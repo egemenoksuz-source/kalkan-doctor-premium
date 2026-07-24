@@ -15,3 +15,15 @@
   to = "https://kalkandoctor.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/en"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tr"
+  to = "/"
+  status = 301
+  force = true
