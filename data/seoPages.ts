@@ -553,6 +553,182 @@ export const seoPages: SeoPage[] = [
       },
     ],
   },
+  {
+    slug: "tourist-doctor-kalkan",
+    metaTitle: "Tourist Doctor Kalkan | English-Speaking Medical Help",
+    metaDescription:
+      "Need medical help during your Kalkan holiday? Contact an English-speaking tourist doctor for hotel, villa and accommodation visits.",
+    eyebrow: "Medical Assistance for International Visitors",
+    heading: "Tourist Doctor in Kalkan",
+    intro:
+      "Private English-speaking medical assistance for visitors who become unwell during their holiday in Kalkan. Contact the team to discuss a doctor visit at your hotel, villa, apartment or holiday accommodation.",
+    contentSections: [
+      {
+        title: "Clear medical support during your holiday",
+        paragraphs: [
+          "Becoming unwell in another country can feel stressful when you do not know where to go or how to explain your symptoms. Kalkan Doctor helps international visitors communicate in English and understand the recommended next step.",
+          "Send the patient’s age, symptoms, accommodation name and exact WhatsApp location. Current availability and whether a visit at your location is suitable will be discussed after the information is reviewed.",
+        ],
+        bullets: [
+          "English-speaking medical consultation",
+          "Hotel and boutique accommodation visits",
+          "Private villa and apartment visits",
+          "Support for tourists and international families",
+        ],
+      },
+      {
+        title: "Common holiday health concerns",
+        paragraphs: [
+          "Tourists may request assessment for stomach problems, vomiting, diarrhoea, dehydration concerns, fever, respiratory symptoms, ear complaints, minor injuries and other unexpected illnesses. Care is based on the patient’s individual clinical assessment.",
+          "For unconsciousness, severe breathing difficulty, major trauma, stroke symptoms or another life-threatening emergency, call Türkiye’s emergency number 112 immediately.",
+        ],
+      },
+      {
+        title: "Medical visits throughout the Kalkan area",
+        paragraphs: [
+          "Visits may be arranged in Kalkan Centre, Kalamar, Kışla, Ortaalan, İslamlar, Üzümlü, Sarıbelen and nearby accommodation areas. Exact coverage and availability are confirmed after the location is received.",
+        ],
+      },
+    ],
+    services: [
+      "English-speaking doctor consultation",
+      "Hotel and villa doctor visits",
+      "Holiday illness assessment",
+      "Food poisoning assessment",
+      "Dehydration evaluation",
+      "Minor injury assessment",
+      "Prescription support when indicated",
+      "Hospital referral guidance",
+    ],
+    areas: [
+      "Kalkan Centre",
+      "Kalamar",
+      "Kışla",
+      "İslamlar",
+      "Üzümlü",
+      "Sarıbelen",
+    ],
+    faq: [
+      {
+        question: "Can tourists request a doctor at their hotel in Kalkan?",
+        answer:
+          "Yes. When appropriate and available, a private medical visit may be arranged at a hotel, villa, apartment or holiday accommodation.",
+      },
+      {
+        question: "Does the medical team speak English?",
+        answer:
+          "Yes. International visitors can explain their symptoms and receive medical information in English.",
+      },
+      {
+        question: "What information should I send through WhatsApp?",
+        answer:
+          "Send the patient’s age, main symptoms, when they started, relevant medical conditions, accommodation name and exact location.",
+      },
+      {
+        question: "Can you help with illness during a holiday?",
+        answer:
+          "Tourists may request assessment for suitable non-life-threatening health concerns. The appropriate care depends on the individual clinical evaluation.",
+      },
+      {
+        question: "Which parts of Kalkan are covered?",
+        answer:
+          "Coverage includes Kalkan Centre, Kalamar, Kışla, İslamlar, Üzümlü, Sarıbelen and nearby accommodation areas, subject to availability.",
+      },
+      {
+        question: "What should I do in a life-threatening emergency?",
+        answer:
+          "Call Türkiye’s emergency number 112 immediately for unconsciousness, severe breathing difficulty, major trauma or another life-threatening condition.",
+      },
+    ],
+  },
+  {
+    slug: "doctor-in-patara",
+    metaTitle: "Doctor in Patara | English-Speaking Hotel & Villa Visits",
+    metaDescription:
+      "Need a doctor in Patara? Contact our English-speaking medical team for private visits to hotels, guesthouses, villas and homes.",
+    eyebrow: "Private Medical Assistance in Patara",
+    heading: "English-Speaking Doctor in Patara",
+    intro:
+      "Private medical assistance for tourists, residents and families in Patara. Contact the team to discuss a doctor visit at your hotel, guesthouse, villa, apartment or home.",
+    contentSections: [
+      {
+        title: "Medical care at your location in Patara",
+        paragraphs: [
+          "Travelling while you feel unwell may be difficult. When a visit at the patient’s location is suitable, private medical assistance may be arranged at accommodation and residential addresses in Patara.",
+          "Contact the team by telephone or WhatsApp with the patient’s age, symptoms, accommodation details and exact location. Availability and the most appropriate next step will then be discussed.",
+        ],
+        bullets: [
+          "Hotel and guesthouse doctor visits",
+          "Private villa and home visits",
+          "English-speaking medical assistance",
+          "Support for tourists and residents",
+        ],
+      },
+      {
+        title: "Assessment for unexpected illness",
+        paragraphs: [
+          "Patients may request medical assessment for stomach problems, possible dehydration, fever, respiratory symptoms, ear complaints, minor injuries and other suitable non-life-threatening concerns. Recommendations depend on the individual examination.",
+          "For severe breathing difficulty, unconsciousness, major trauma or another life-threatening emergency, call Türkiye’s emergency number 112 immediately.",
+        ],
+      },
+      {
+        title: "Patara and nearby service coverage",
+        paragraphs: [
+          "Coverage may include Patara village, local hotels, guesthouses, holiday villas and nearby locations between Patara and Kalkan. Current availability is confirmed after receiving the exact address or WhatsApp location.",
+        ],
+      },
+    ],
+    services: [
+      "Private doctor consultation",
+      "Hotel and guesthouse visits",
+      "Villa and home medical visits",
+      "Tourist medical assistance",
+      "Food poisoning assessment",
+      "Dehydration evaluation",
+      "Prescription support when indicated",
+      "Medical referral guidance",
+    ],
+    areas: [
+      "Patara",
+      "Gelemiş",
+      "Patara Hotels",
+      "Holiday Villas",
+      "Guesthouses",
+      "Nearby locations",
+    ],
+    faq: [
+      {
+        question: "Can a doctor visit my hotel or guesthouse in Patara?",
+        answer:
+          "Yes. When suitable and available, a private visit may be arranged at hotels, guesthouses, villas, apartments and homes.",
+      },
+      {
+        question: "Is English-speaking assistance available in Patara?",
+        answer:
+          "Yes. International patients can communicate their symptoms and receive medical information in English.",
+      },
+      {
+        question: "Do you provide medical help for tourists?",
+        answer:
+          "Yes. The service supports tourists, residents, families and international visitors staying in Patara.",
+      },
+      {
+        question: "How do I request a doctor?",
+        answer:
+          "Call or send a WhatsApp message with the patient’s age, symptoms, accommodation name and exact location.",
+      },
+      {
+        question: "Do you cover villas around Patara?",
+        answer:
+          "Villa and holiday accommodation visits may be arranged in Patara and nearby areas, subject to current availability.",
+      },
+      {
+        question: "When should I call 112?",
+        answer:
+          "Call 112 immediately for unconsciousness, severe breathing difficulty, major trauma, stroke symptoms or another life-threatening emergency.",
+      },
+    ],
+  },
 ];
 
 export function getSeoPage(slug: string) {
