@@ -375,6 +375,184 @@ export const seoPages: SeoPage[] = [
       },
     ],
   },
+  {
+    slug: "food-poisoning-doctor-kalkan",
+    metaTitle:
+      "Food Poisoning Doctor Kalkan | Hotel & Villa Medical Visit",
+    metaDescription:
+      "Food poisoning symptoms in Kalkan? Contact our English-speaking medical team for assessment at your hotel, villa or home. Call or WhatsApp 24/7.",
+    eyebrow: "Medical Help for Holiday Stomach Problems",
+    heading: "Food Poisoning Doctor in Kalkan",
+    intro:
+      "Vomiting, diarrhoea, stomach pain and dehydration concerns can quickly disrupt a holiday. Contact our English-speaking medical team to discuss an appropriate assessment at your hotel, villa, apartment or home in Kalkan.",
+    contentSections: [
+      {
+        title: "Medical assessment at your accommodation",
+        paragraphs: [
+          "Food poisoning and gastroenteritis symptoms may have different causes and levels of severity. A medical assessment can help review the patient’s symptoms, hydration status, medical history and whether further treatment or referral is appropriate.",
+          "Send the patient’s age, main symptoms, when they started, relevant medical conditions and exact location through WhatsApp. The team will discuss current availability and the most suitable next step.",
+        ],
+        bullets: [
+          "Hotel-room medical assessment",
+          "Private villa and apartment visits",
+          "Hydration status evaluation",
+          "English and Turkish communication",
+        ],
+      },
+      {
+        title: "When food poisoning symptoms need urgent help",
+        paragraphs: [
+          "Seek urgent medical advice when symptoms are severe, persistent or accompanied by signs such as inability to keep fluids down, significant weakness, blood in vomit or stool, severe abdominal pain, confusion or reduced urination.",
+          "For unconsciousness, severe breathing difficulty, collapse or another life-threatening emergency, call Türkiye’s emergency number 112 immediately.",
+        ],
+      },
+      {
+        title: "Coverage throughout Kalkan and nearby areas",
+        paragraphs: [
+          "Medical visits may be arranged in Kalkan Centre, Kalamar, Kışla, Ortaalan, İslamlar, Üzümlü, Sarıbelen and nearby accommodation areas. Availability is confirmed after receiving the patient’s exact location.",
+        ],
+      },
+    ],
+    services: [
+      "Food poisoning symptom assessment",
+      "Vomiting and diarrhoea assessment",
+      "Dehydration evaluation",
+      "Hotel and villa doctor visits",
+      "Medical guidance in English",
+      "Treatment planning when appropriate",
+      "Prescription support when indicated",
+      "Hospital referral guidance",
+    ],
+    areas: [
+      "Kalkan Centre",
+      "Kalamar",
+      "Kışla",
+      "İslamlar",
+      "Üzümlü",
+      "Sarıbelen",
+    ],
+    faq: [
+      {
+        question:
+          "Can a doctor visit my hotel for food poisoning in Kalkan?",
+        answer:
+          "Yes. When suitable and available, a private medical visit may be arranged at your hotel, villa, apartment or holiday accommodation.",
+      },
+      {
+        question: "Which symptoms should I send through WhatsApp?",
+        answer:
+          "Send the patient’s age, symptoms, when they started, whether fluids can be kept down, any important medical conditions and the exact location.",
+      },
+      {
+        question: "Can food poisoning cause dehydration?",
+        answer:
+          "Vomiting and diarrhoea can contribute to fluid loss. A clinician should assess symptoms and hydration needs individually, particularly for children, older adults and people with medical conditions.",
+      },
+      {
+        question: "Is English-speaking medical assistance available?",
+        answer:
+          "Yes. International visitors can explain their symptoms and receive medical information in English.",
+      },
+      {
+        question: "Do you cover private villas around Kalkan?",
+        answer:
+          "Coverage includes villas and accommodation in Kalkan Centre, Kalamar, Kışla, İslamlar, Üzümlü, Sarıbelen and nearby areas, subject to availability.",
+      },
+      {
+        question: "When should I call 112?",
+        answer:
+          "Call 112 immediately for unconsciousness, collapse, severe breathing difficulty or another condition that appears life-threatening.",
+      },
+    ],
+  },
+  {
+    slug: "iv-therapy-kalkan",
+    metaTitle: "IV Therapy Kalkan | Medically Assessed Hotel & Villa Care",
+    metaDescription:
+      "Looking for IV therapy in Kalkan? Contact our English-speaking medical team for an individual assessment at your hotel, villa or home.",
+    eyebrow: "Clinically Assessed Medical Support",
+    heading: "IV Therapy in Kalkan",
+    intro:
+      "Contact our English-speaking medical team for an individual medical assessment if you are concerned about dehydration or illness while staying in Kalkan. IV treatment is provided only when considered medically appropriate after clinical evaluation.",
+    contentSections: [
+      {
+        title: "Assessment before any IV treatment",
+        paragraphs: [
+          "IV fluids are not automatically suitable for every patient or every illness. Before treatment, a clinician should review symptoms, medical history, current medicines, hydration status and any factors that may make IV treatment unsuitable.",
+          "If IV therapy is considered appropriate after assessment, the medical team will explain the proposed care and any follow-up recommendations. Alternative treatment or hospital referral may be advised when necessary.",
+        ],
+        bullets: [
+          "Individual medical assessment",
+          "Hydration status review",
+          "Hotel, villa and home visits",
+          "Clear explanation in English",
+        ],
+      },
+      {
+        title: "Medical support for dehydration concerns",
+        paragraphs: [
+          "Fluid loss may occur with vomiting, diarrhoea, fever or reduced fluid intake. The appropriate response depends on symptom severity, the patient’s age, existing conditions and clinical findings.",
+          "For severe symptoms, confusion, collapse, chest pain, serious breathing difficulty or another life-threatening emergency, call Türkiye’s emergency number 112 immediately.",
+        ],
+      },
+      {
+        title: "IV assessment at hotels and villas in Kalkan",
+        paragraphs: [
+          "Medical assessments may be arranged at hotels, private villas, apartments and homes across Kalkan Centre, Kalamar, Kışla and nearby areas. Contact the team with the patient’s information and exact location to confirm availability.",
+        ],
+      },
+    ],
+    services: [
+      "Medical assessment before treatment",
+      "Hydration status evaluation",
+      "IV fluids when medically appropriate",
+      "Hotel and villa medical visits",
+      "English-speaking consultation",
+      "Vital-sign assessment",
+      "Treatment and follow-up guidance",
+      "Hospital referral when required",
+    ],
+    areas: [
+      "Kalkan Centre",
+      "Kalamar",
+      "Kışla",
+      "İslamlar",
+      "Üzümlü",
+      "Nearby locations",
+    ],
+    faq: [
+      {
+        question: "Can I request IV therapy at my hotel in Kalkan?",
+        answer:
+          "You may request a medical assessment at your hotel. IV treatment is offered only when a qualified clinician considers it appropriate after evaluating the patient.",
+      },
+      {
+        question: "Is IV therapy suitable for everyone?",
+        answer:
+          "No. Suitability depends on symptoms, medical history, current medicines, clinical findings and possible risks. An individual assessment is required.",
+      },
+      {
+        question: "Can the medical team visit a private villa?",
+        answer:
+          "Yes. Assessments may be arranged at private villas, apartments, hotels and homes, subject to current availability.",
+      },
+      {
+        question: "Is English communication available?",
+        answer:
+          "Yes. The assessment, proposed care and follow-up information can be explained in English.",
+      },
+      {
+        question: "What details should I send?",
+        answer:
+          "Send the patient’s age, symptoms, when they started, medical conditions, current medicines and exact WhatsApp location.",
+      },
+      {
+        question: "What should I do in a serious emergency?",
+        answer:
+          "Call 112 immediately for unconsciousness, collapse, chest pain, severe breathing difficulty, stroke symptoms or another life-threatening condition.",
+      },
+    ],
+  },
 ];
 
 export function getSeoPage(slug: string) {
